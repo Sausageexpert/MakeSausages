@@ -1,0 +1,57 @@
+
+# There is only one task HARD enough to have to be automated by Mr. Py. That is...
+# Cooking pre-made saysages!!!
+# Gasps of horror
+# "Even Mr. Py isn't powerful enough to cook sausages! It takes SO much time!!!"
+
+import cv2
+import dropbox
+import time
+import random
+
+startTime = time.time()
+
+# Step 1: Go to the supermarket
+
+def walk():
+    Soham.x = supermarket.x
+    Soham.y = supermarket.y
+
+walk()
+
+# Step 2: Get back home
+
+def comeBack():
+    Soham.x = house.x
+    Soham.y = house.y
+
+comeBack()
+
+# Step 3: Boil Water
+
+def boil():
+    temperature = 100
+    water.heat.toTemperature(temperature)
+
+boil()
+
+# Step 4: Put sausages in the water
+
+def heat():
+    sausages.x = water.x
+    sausages.y = water.y
+    
+# Get the sausages out and eat!
+
+def eat():
+    sausages.x = plate.x
+    sausages.y = plate.y
+    plate.x = Soham.x
+    plate.y = Soham.y
+    Soham.x = table.x
+    Soham.y = table.y
+    Soham.shareSausages()
+    
+eat()
+
+# Yay!!!
